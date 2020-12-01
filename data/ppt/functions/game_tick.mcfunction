@@ -82,7 +82,9 @@ effect clear @e[type=creeper,scores={creeper_time=48..}]
 #道具出现
 execute as @e[type=armor_stand,tag=item,tag=1] at @s if block ~ ~-2 ~ black_concrete run data merge entity @s {ArmorItems:[{},{},{},{id:"dragon_head",Count:1b}],Glowing:1b}
 execute as @e[type=armor_stand,tag=item,tag=2] at @s if block ~ ~-2 ~ black_concrete run data merge entity @s {ArmorItems:[{},{},{},{id:"totem_of_undying",Count:1b}],Pose:{Head:[0F,0F,0F]}}
+execute as @e[type=armor_stand,tag=item,tag=2] at @s if block ~ ~-2 ~ black_concrete run tp @s ~ ~-0.675 ~0.25
 execute as @e[type=armor_stand,tag=item,tag=3] at @s if block ~ ~-2 ~ black_concrete run data merge entity @s {ArmorItems:[{},{},{},{id:"iron_boots",Count:1b}]}
+execute as @e[type=armor_stand,tag=item,tag=3] at @s if block ~ ~-2 ~ black_concrete run tp @s ~ ~-0.65 ~0.25
 execute as @e[type=armor_stand,tag=item,tag=4] at @s if block ~ ~-2 ~ black_concrete run data merge entity @s {ArmorItems:[{},{},{},{id:"tnt",Count:1b}]}
 execute as @e[type=armor_stand,tag=item,tag=5] at @s if block ~ ~-2 ~ black_concrete run data merge entity @s {ArmorItems:[{},{},{},{id:"redstone_block",Count:1b}]}
 
