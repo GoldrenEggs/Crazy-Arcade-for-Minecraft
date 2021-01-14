@@ -8,5 +8,5 @@ gamemode adventure @a
 xp set @a 0 levels
 clear @a
 tp @a 46.5 57 6.0
-time set 5000
+time set 6000
 function ppt:scoreboard_reload
